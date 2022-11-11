@@ -1,0 +1,49 @@
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*position: sticky;*/
+  margin-top: 4rem;
+  width: 100%;
+  bottom: 0px;
+  background-color: black;
+  border-top: 2px solid slategray;
+}
+
+.email {
+  color: white;
+  font-size: 2rem;
+}
+
+.email:hover {
+  color: rgb(78, 156, 117);
+  transition: 100ms;
+}
+
+.icon-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.5rem;
+}
+
+.icon-linkedin {
+  font-size: 2rem;
+  color: white;
+}
+
+.icon-linkedin:hover {
+  color: #0077b5;
+  transition: 100ms;
+}
+
+.icon-github {
+  font-size: 2rem;
+  color: white;
+}
+
+.icon-github:hover {
+  color: #6e5494;
+  transition: 100ms;
+}

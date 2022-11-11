@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #544523;
+  margin: auto;
+}
+
+.main-container {
+  width: 100vw;
+}
+
+.page-title {
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+}

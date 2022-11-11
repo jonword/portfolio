@@ -1,0 +1,35 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  background-color: white;
+  border: 2px solid slategray;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  /*margin: 4rem;*/
+  padding: 2rem;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.content p {
+  font-family: "Raleway", sans-serif;
+}
